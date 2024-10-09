@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<head>
+  <title>Currículo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&family=Raleway:wght@200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="CV.css" />
+</head>
+<body>
+  <div id="folha" class="linha">
+    <div>
+      <div id="nome">
+        <h1 id="meuNome">NATHALIA<br />CONSTANTINO<br />FRAGA</h1>
+        <h1 id="minhaProfissao">ASSISTENTE ADMINISTRATIVO</h1>
+      </div>
+      <div id="coluna1">
+        <h4 class="titulo">CONTATO</h4>
+        <ul class="info" style="list-style: none">
+          <li>(27)......-.....</li>
+          <li>nathalia-constantino@hotmail.com</li>
+          <li>www.github.com//nathaliacf</li>
+        </ul>
+   <h4 class="titulo">PERFIL</h4>
+        <p class="info">
+          Trabalho no Detran, no setor de pátio fazendo liberações de  veiculos e etc..
+        </p>
