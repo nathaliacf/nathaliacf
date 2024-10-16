@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo de [Seu Nome]</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        .contact-info, .skills, .experience, .education {
+            background-color: #f0a4a4;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Nathalia</h1>
+    <h2>Currículo</h2>
+
+    <section class="contact-info">
+        <h3>(27)997...-.....</h3>
+        <p>Email: nathalia@exemplo.com</p>
+        <p>Telefone: (XX) XXXX-XXXX</p>
+        <p>Endereço: Rua x..., 123, vitória, ES</p>
+    </section>
+
+    <section class="skills">
+        <h3>Habilidades</h3>
+        <ul>
+            <li>1</li>
+            <li>2</li> 2</li>
+            <li> 3</li>
+            <li> 4</li>
+        </ul>
+    </section>
+
+    <section class="experience">
+        <h3>Experiência Profissional</h3>
+        <div>
+            <h4>Detran -Assistente Administrativo</h4>
+            <p>Período: 02/2024 - atualmente</p>
+            <p>setor de patio....</p>
+        </div>
+    </section>
+
+    <section class="education">
+        <h3>Educação</h3>
+        <div>
+            <h4>Up centro Educacional -Ensino Medio</h4>
+            <p>Dezembro: 2018</p>
+        </div>
+        <div>
+            <h4>Estacio de sá -Analise e desenvolvimento sistemas</h4>
+            <p>julho: 2026</p>
+        </div>
+    </section>
+
+</body>
+</html>
