@@ -3,28 +3,128 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Currículo de [Seu Nome]</title>
+    <title>Currículo de Nathalia</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
-            margin: 20px;
+            margin: 0 auto;
             padding: 20px;
-            border: 1px solid #ccc;
-            border-radius: 8px;
-            background-color: #f9f9f9;
-        }
-        h1, h2, h3 {
+            max-width: 800px;
+            background: #f5f5f5; /* Fundo suave para a página inteira */
             color: #333;
+            border-radius: 10px;
         }
+
+        h1 {
+            text-align: center;
+            color: #000; /* Nome em preto */
+            font-size: 3em;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sombrinha para dar destaque */
+        }
+
+        h2 {
+            text-align: center;
+            color: #4682b4; /* Cor diferente para o título */
+            font-size: 2em;
+            margin-top: -10px;
+            font-weight: bold;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+        }
+
         section {
-            margin-bottom: 20px;
-        }
-        .contact-info, .skills, .experience, .education {
-            background-color: #f0a4a4;
-            padding: 15px;
+            margin-bottom: 15px;
             border-radius: 5px;
+            overflow: hidden;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            max-width: 200px;
+            max-height: 100px;
+            cursor: pointer;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: #fff; /* Cor inicial do fundo */
+        }
+
+        section:hover {
+            max-width: 400px;
+            max-height: 300px;
+        }
+
+        h3 {
+            margin: 0;
+            padding: 10px;
+            color: #fff;
+            font-size: 18px;
+            text-align: center;
+        }
+
+        .content {
+            padding: 10px;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        section:hover .content {
+            opacity: 1;
+        }
+
+        section.contact-info:hover {
+            background-color: #f4cccc; /* Fundo suave para Contact Info */
+        }
+
+        section.skills:hover {
+            background-color: #d0e4f3; /* Fundo suave para Skills */
+        }
+
+        section.experience:hover {
+            background-color: #d9f2d3; /* Fundo suave para Experience */
+        }
+
+        section.education:hover {
+            background-color: #ffd1dc; /* Fundo suave para Education */
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        ul li {
+            margin-bottom: 5px;
+        }
+
+        div {
+            margin-bottom: 15px;
+        }
+
+        /* Cores personalizadas para cada seção */
+        .contact-info {
+            background-color: #f08080;
+        }
+        .contact-info h3 {
+            background-color: #e74c3c;
+        }
+
+        .skills {
+            background-color: #87ceeb;
+        }
+        .skills h3 {
+            background-color: #4682b4;
+        }
+
+        .experience {
+            background-color: #90ee90;
+        }
+        .experience h3 {
+            background-color: #32cd32;
+        }
+
+        .education {
+            background-color: #ffb6c1;
+        }
+        .education h3 {
+            background-color: #ff69b4;
         }
     </style>
 </head>
@@ -34,40 +134,42 @@
     <h2>Currículo</h2>
 
     <section class="contact-info">
-        <h3>(27)997...-.....</h3>
-        <p>Email: nathalia@exemplo.com</p>
-        <p>Telefone: (XX) XXXX-XXXX</p>
-        <p>Endereço: Rua x..., 123, vitória, ES</p>
+        <h3>Informações de Contato</h3>
+        <div class="content">
+            <p>Email: nathalia@exemplo.com</p>
+            <p>Telefone: (XX) XXXX-XXXX</p>
+            <p>Endereço: Rua X, 123, Vitória, ES</p>
+        </div>
     </section>
 
     <section class="skills">
         <h3>Habilidades</h3>
-        <ul>
-            <li>1</li>
-            <li>2</li> 2</li>
-            <li> 3</li>
-            <li> 4</li>
-        </ul>
+        <div class="content">
+            <ul>
+                <li>Habilidade 1</li>
+                <li>Habilidade 2</li>
+                <li>Habilidade 3</li>
+                <li>Habilidade 4</li>
+            </ul>
+        </div>
     </section>
 
     <section class="experience">
         <h3>Experiência Profissional</h3>
-        <div>
-            <h4>Detran -Assistente Administrativo</h4>
-            <p>Período: 02/2024 - atualmente</p>
-            <p>setor de patio....</p>
+        <div class="content">
+            <h4>Detran - Assistente Administrativo</h4>
+            <p>Período: 02/2024 - Atualmente</p>
+            <p>Setor de pátio...</p>
         </div>
     </section>
 
     <section class="education">
         <h3>Educação</h3>
-        <div>
-            <h4>Up centro Educacional -Ensino Medio</h4>
-            <p>Dezembro: 2018</p>
-        </div>
-        <div>
-            <h4>Estacio de sá -Analise e desenvolvimento sistemas</h4>
-            <p>julho: 2026</p>
+        <div class="content">
+            <h4>Up Centro Educacional - Ensino Médio</h4>
+            <p>Conclusão: Dezembro de 2018</p>
+            <h4>Estácio de Sá - Análise e Desenvolvimento de Sistemas</h4>
+            <p>Previsão de Conclusão: Julho de 2026</p>
         </div>
     </section>
 
